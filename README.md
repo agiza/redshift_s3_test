@@ -4,14 +4,14 @@ Create a terraform module that creates the following resources:
 - A redshift cluster with IAM role that allows read/write access to the bucket
 
 # Input parameters:
-• Number of nodes
-• Node type/size
-• Name of bucket/cluster
-• Charge Code tag to be applied to all resources
+- Number of nodes
+- Node type/size
+- Name of bucket/cluster
+- Charge Code tag to be applied to all resources
 
 # Outputs:
-• Redshift endpoint
-• S3 bucket ARN
+- Redshift endpoint
+- S3 bucket ARN
 
 ## Module for Redshift_s3_test
 
