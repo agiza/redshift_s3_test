@@ -1,7 +1,7 @@
 # Redshift Cluster with S3 bucket
 Create a terraform module that creates the following resources:
-• An S3 bucket with private default acl
-• A redshift cluster with IAM role that allows read/write access to the bucket
+- An S3 bucket with private default acl
+- A redshift cluster with IAM role that allows read/write access to the bucket
 
 # Input parameters:
 • Number of nodes
