@@ -13,7 +13,7 @@ Create a terraform module that creates the following resources:
 • Redshift endpoint
 • S3 bucket ARN
 
-**Module for Redshift_s3_test*
+## Module for Redshift_s3_test
 
 module "redshift_s3_test" {
   source = "https://github.com/anvrao5/redshift_s3_test.git"
