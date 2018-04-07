@@ -16,6 +16,7 @@ Create a terraform module that creates the following resources:
 ## Module for Redshift_s3_test
 
 module "redshift_s3_test" {
+
   source = "https://github.com/anvrao5/redshift_s3_test.git"
   
   redshift_cluster_identifier = "${var.redshift_cluster_identifier}"
