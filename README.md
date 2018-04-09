@@ -14,7 +14,7 @@ Create a terraform module that creates the following resources:
 - S3 bucket ARN
 
 ## Module for Redshift_s3_test
-
+'''
 module "redshift_s3_test" {
 
   source = "https://github.com/anvrao5/redshift_s3_test.git"
@@ -43,3 +43,4 @@ module "redshift_s3_test" {
   
   redshift_bucket_name = "${var.redshift_bucket_name}"
 }
+'''
